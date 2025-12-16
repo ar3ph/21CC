@@ -4,5 +4,6 @@ main
 *.gcno
 *.gcov
 main_test
-chapter2/html
-chapter2/latex
+
+part1/chapter2/html
+part1/chapter2/latex

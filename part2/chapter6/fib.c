@@ -2,8 +2,10 @@
 
 
 long long int fibonacci() {
-    static long long int first = 0;
-    static long long int second = 1;
+    // this works bc static variables are only initiated once
+    // _Thread_local is added in C11
+    static _Thread_local long long first = 0;
+    static _Thread_local long long second = 1;
     long long int out = first + second;
     first = second;
     second = out;

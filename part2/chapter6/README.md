@@ -15,3 +15,6 @@
 * Can't use `sizeof` to measure array size
 * Can be resized
 * Jesus weeps (fr)
+
+
+# Structures Get Copied, Arrays Get Aliased

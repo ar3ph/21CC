@@ -1,0 +1,3 @@
+# Handling Strings
+* asprintf, vsnprintf, ...
+* string literals are read only

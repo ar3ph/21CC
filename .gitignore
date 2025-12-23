@@ -5,5 +5,7 @@ main
 *.gcov
 main_test
 
+ms_extension_main
+
 part1/chapter2/html
 part1/chapter2/latex
